@@ -19,7 +19,7 @@ namespace DailyProduction.Model
         public DateTime Date { get; set; }
 
         public BikeModel Model { get; set; }
-        public int ItemsProduced { get; set; }
+        public int? ItemsProduced { get; set; }
 
     }
 }
